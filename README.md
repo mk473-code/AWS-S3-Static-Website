@@ -24,6 +24,11 @@ This project demonstrates hosting a static portfolio website using Amazon S3 Sta
 3. Uploaded website files.
 4. Configured bucket policy.
 5. Accessed the website through the S3 endpoint.
+   
+## Live Demo
+
+Website Link:
+http://mk473-static-website.s3-website.eu-north-1.amazonaws.com
 
 ## Author
 Manikanta Naripeddi
