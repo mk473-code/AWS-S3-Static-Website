@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manikanta Naripeddi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">MN<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="greeting">Hello, I'm</p>
+        <h1 class="hero-name">Manikanta <span>Naripeddi</span></h1>
+        <div class="typewriter-wrapper">
+          <span class="typewriter" id="typewriter"></span>
+        </div>
+        <p class="hero-desc">
+          Final-year B.Tech CSE student at Sandip University, passionate about
+          Cloud Technology and Information Security.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-ring">
+          <div class="profile-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <i class="fas fa-graduation-cap about-icon"></i>
+          <h3>Education</h3>
+          <p><strong>B.Tech – Computer Science & Engineering</strong></p>
+          <p>Specialization: Cloud Technology & Information Security</p>
+          <p>Sandip University</p>
+          <p class="tag">Final Year</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-bullseye about-icon"></i>
+          <h3>Career Objective</h3>
+          <p>
+            To build a career as a Cloud &amp; Security Engineer, leveraging my
+            skills in AWS, Linux, Docker, and Cybersecurity to design secure,
+            scalable cloud-native solutions for real-world problems.
+          </p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-brain about-icon"></i>
+          <h3>Technical Interests</h3>
+          <ul class="interest-list">
+            <li><i class="fas fa-check-circle"></i> Cloud Architecture &amp; DevOps</li>
+            <li><i class="fas fa-check-circle"></i> Network &amp; Information Security</li>
+            <li><i class="fas fa-check-circle"></i> Backend API Development</li>
+            <li><i class="fas fa-check-circle"></i> Containerization &amp; Orchestration</li>
+            <li><i class="fas fa-check-circle"></i> Open Source &amp; Linux Systems</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical <span>Skills</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-aos>
+          <i class="fas fa-cloud skill-icon cloud"></i>
+          <h4>Cloud Computing</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+
+        <div class="skill-card" data-aos>
+          <i class="fas fa-network-wired skill-icon network"></i>
+          <h4>Networking</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="78%"></div></div>
+          <span class="skill-pct">78%</span>
+        </div>
+
+        <div class="skill-card" data-aos>
+          <i class="fab fa-java skill-icon java"></i>
+          <h4>Java</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+
+        <div class="skill-card" data-aos>
+          <i class="fas fa-database skill-icon mongo"></i>
+          <h4>MongoDB</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="72%"></div></div>
+          <span class="skill-pct">72%</span>
+        </div>
+
+        <div class="skill-card" data-aos>
+          <i class="fas fa-shield-alt skill-icon cyber"></i>
+          <h4>Cybersecurity</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="78%"></div></div>
+          <span class="skill-pct">78%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <i class="fas fa-cloud-upload-alt"></i>
+          </div>
+          <div class="project-body">
+            <h3>Cloud Computing Projects</h3>
+            <p>Deployed scalable web applications and services on AWS using EC2,
+               S3, Lambda, and VPC with security best practices.</p>
+            <div class="project-tags">
+              <span>AWS</span><span>EC2</span><span>S3</span><span>Lambda</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="#" class="proj-link"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <i class="fas fa-boxes"></i>
+          </div>
+          <div class="project-body">
+            <h3>Inventory Management System</h3>
+            <p>A CRUD-based inventory tracking system with real-time stock updates,
+               alerts, and reporting dashboard.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>MongoDB</span><span>Node.js</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="#" class="proj-link"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <i class="fas fa-plug"></i>
+          </div>
+          <div class="project-body">
+            <h3>REST API Development</h3>
+            <p>Designed and built RESTful APIs with authentication, rate-limiting,
+               and comprehensive API documentation using Swagger.</p>
+            <div class="project-tags">
+              <span>Java</span><span>REST</span><span>Swagger</span><span>Docker</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="#" class="proj-link"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS SECTION ===== -->
+  <section class="section skills-section" id="certifications">
+    <div class="container">
+      <h2 class="section-title">Certifi<span>cations</span></h2>
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+          <div class="cert-info">
+            <h4>Cloud Computing Internship</h4>
+            <p>Hands-on internship covering AWS core services, cloud architecture patterns, and deployment pipelines.</p>
+            <span class="cert-badge">Cloud Computing</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="cert-info">
+            <h4>Cybersecurity Fundamentals</h4>
+            <p>Certified in network security, ethical hacking basics, vulnerability assessment, and threat analysis.</p>
+            <span class="cert-badge">Cybersecurity</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-lock"></i></div>
+          <div class="cert-info">
+            <h4>Information Security Certification</h4>
+            <p>Covers cryptography, PKI, secure coding practices, and OWASP Top 10 vulnerabilities.</p>
+            <span class="cert-badge">Security</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="contact-wrapper">
+
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>I'm open to internship opportunities, collaborative projects, and
+             full-time roles in Cloud &amp; Security. Feel free to reach out!</p>
+          <div class="contact-items">
+            <a href="mailto:mani.n98817@gmail.com" class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>mani.n98817@gmail.com</span>
+            </a>
+            <a href="tel:9701598817" class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 9701598817</span>
+            </a>
+            <a href="#" class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <span>linkedin.com/in/manikanta-naripeddi</span>
+            </a>
+            <a href="#" class="contact-item">
+              <i class="fab fa-github"></i>
+              <span>github.com/manikanta-naripeddi</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2024 Manikanta Naripeddi · Sandip University</p>
+    <p>Built with <i class="fas fa-heart"></i> using HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
